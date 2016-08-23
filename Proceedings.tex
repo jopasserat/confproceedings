@@ -1,0 +1,36 @@
+\documentclass{confproc}
+
+\input{header}
+
+\makeindex
+
+\begin{document}
+\frontmatter
+
+
+\setcounter{page}{1}
+\maketitle
+\cleardoublepage
+
+
+\input{editorial}
+
+\newpage
+
+
+\tableofcontents % main ToC
+\setcounter{npagespreamble}{\arabic{page}-1}
+
+\mainmatter
+
+
+\procpaper[npages=10,title={Multiple-View Spectral Clustering for Group-wise Functional Community Detection},author={Nathan Cahill, Harmeet Singh, Chao Zhang, Daryl Corcoran, Alison Prengaman, Paul Wenger, John Hamilton, Peter Bajorski, Andrew Michael},index=\index{Nathan Cahill}\index{Harmeet Singh}\index{Chao Zhang}\index{Daryl Corcoran}\index{Alison Prengaman}\index{Paul Wenger}\index{John Hamilton}\index{Peter Bajorski}\index{Andrew Michael}]{papers/paper2}
+\procpaper[npages=10,title={Cortical Geometry Network and Topology Markers for Parkinson's Disease Diagnosis},author={Amanmeet Garg, Donghuan Lu, Karteek Popuri, Mirza Faisal Beg},index=\index{Amanmeet Garg}\index{Donghuan Lu}\index{Karteek Popuri}\index{Mirza Faisal Beg}]{papers/paper3}
+\procpaper[npages=10,title={Comparison of Brain Networks with Unknown Correspondences},author={Sofia Ira Ktena, Sarah Parisot, Jonathan Passerat-Palmbach, Daniel Rueckert},index=\index{Sofia Ira Ktena}\index{Sarah Parisot}\index{Jonathan Passerat-Palmbach}\index{Daniel Rueckert}]{papers/paper6}
+\procpaper[npages=9,title={An Empirical Study of Continuous Connectivity Degree Sequence Equivalents},author={Daniel Moyer, Boris Gutman, Joshua Faskowitz, Neda Jahanshad, Paul M. Thompson},index=\index{Daniel Moyer}\index{Boris Gutman}\index{Joshua Faskowitz}\index{Neda Jahanshad}\index{Paul M. Thompson}]{papers/paper7}
+\procpaper[npages=10,title={Kernel classification of connectomes based on earth mover's distance between graph spectra},author={Yulia Dodonova, Mikhail Belyaev, Anna Tkachev, Dmitry Petrov, Leonid Zhukov},index=\index{Yulia Dodonova}\index{Mikhail Belyaev}\index{Anna Tkachev}\index{Dmitry Petrov}\index{Leonid Zhukov}]{papers/paper8}
+
+
+\backmatter
+\insertindex
+\end{document}
